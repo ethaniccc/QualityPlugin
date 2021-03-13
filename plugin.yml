@@ -1,0 +1,46 @@
+---
+name: HadesFactionsCore
+version: 0.0.1
+main: VerySolar\HadesFactionsCore\HadesCore
+api: 3.16.0
+load: POSTWORLD
+author: VerySolar 
+commands:
+ bless:
+  description: "Bless Yourself From Bad Effects!"
+  permission: core.bless.command
+ day:
+  description: "Night > Day"
+  permission: core.day.command
+ night:
+  description: "Day > Night"
+  permission: core.night.command
+ heal:
+  description: "Fully Restores Your Health!"
+  permission: core.heal.command
+ gmc:
+  description: "Switches gamemodes to Creative!"
+  permission: core.gmc.command
+ gms:
+  description: "Switches gamemodes to Survival!"
+  permission: core.gms.command
+ spec:
+  description: "Switches gamemodes to Spectator!"
+  permission: core.spectate.command
+ spectate:
+  description: "Switches gamemodes to Spectator!"
+  permission: core.spectate.command
+ feed:
+  description: "Fully Restores Your Hunger!"
+  permission: core.feed.command
+ admin:
+  description: "Switches your Status from Player to Admin!"
+  permission: core.admin.command
+ player:
+  description: "Switches your Status from Admin to Player!"
+  permission: core.player.command
+ item:
+  aliases: [brag]
+  description: "Brag your valuabls to the world!"
+  permission: core.brag.command
+...
