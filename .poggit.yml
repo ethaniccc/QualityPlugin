@@ -1,0 +1,8 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/ethaniccc/QualityPlugin
+build-by-default: true
+branches:
+- master
+projects:
+  QualityPlugin:
+    path: ""
+...
